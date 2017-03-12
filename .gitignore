@@ -1,0 +1,7 @@
+.cask
+*.dat
+auto-save-list
+projectile*
+recentf
+smex-items
+custom.el
