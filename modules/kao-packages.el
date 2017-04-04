@@ -48,6 +48,11 @@
   :config
   (kao/binding/git))
 
+(use-package org
+  :ensure t
+  :init
+  (require 'evil-org))
+
 ;; popwin lets C-g close annoying kind of popups
 (use-package popwin
   :ensure t
